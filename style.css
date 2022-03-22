@@ -1,0 +1,111 @@
+:root {
+    --font-color: #eeeeee;
+}
+
+html, body {
+    background-color: #1f1f1f;
+    color: var(--font-color);
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.flex-direction-row {
+    flex-direction: row;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-flex-end {
+    justify-content: flex-end;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
+.p-1 {
+    padding: 1rem;
+}
+
+.fs-2 {
+    font-size: 2rem;
+}
+
+.pb-1 {
+    padding-bottom: 1rem;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+#transparent-details {
+    display: none;
+}
+
+.tags {
+    font-weight: 700;
+    font-size: .85rem;
+    margin-top: -17px;
+    margin-right: 52px;
+    color: var(--color-logo-secondary)
+}
+
+.logo-left {
+    margin-right: -32px;
+}
+
+.logo {
+    height: 70px;
+}
+
+.logo-center {
+    margin: 0 3px;
+    margin-top: -7px;
+}
+
+.logo-right {
+    margin-left: -32px;
+}
+
+.mtg, .communityName {
+    font-size: 44px;
+    margin-top: -10px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+a:hover {
+    text-decoration: underline;
+}
